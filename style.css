@@ -1,0 +1,93 @@
+.classe {
+    width: 450px;
+    height: 350px;
+    background-color: grey;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.classe .exterieur{
+    width: 400px;
+    height: 400px;
+}
+
+.classe .interieur{
+    width: 250px;
+    height: 200px;
+    background-color: indianred;
+    position: absolute;
+    top: 50px;
+    left: 100px
+}
+
+.exterieur div div{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Blue_computer_icon.svg/1024px-Blue_computer_icon.svg.png");
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+}
+
+.exterieur .gauche {
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+.exterieur .droite {
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
+
+.exterieur .haut{
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+
+.exterieur .haut div {
+    display: inline-block;
+    width: 50px;
+}
+
+.interieur div div{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Blue_computer_icon.svg/1024px-Blue_computer_icon.svg.png");
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+}
+
+.interieur .gauche{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+
+.interieur .droite{
+    position: absolute;
+    top: 50px;
+    right: 0px;
+}
+
+.interieur .haut div{
+    display: inline-block;
+    width: 50px;
+
+}
+
+.interieur .haut {
+    position: absolute;
+    top: 150px;
+    left: 75px;
+}
+
+.jerome {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Blue_computer_icon.svg/1024px-Blue_computer_icon.svg.png");
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    right: 45%;
+}
